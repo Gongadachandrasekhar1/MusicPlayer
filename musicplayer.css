@@ -7,9 +7,27 @@
 body
 {
     background-color: rgba(11, 16, 38,255);
+    font-family:'Courier New', Courier, monospace;
 }
-.fa-music
+.coldplay-box
 {
+    margin: 130px 0px 0px 120px;
+    width: 850px;
+    height: 350px;
+    background-color:rgba(20,27,65,255);
+}
+.coldplay-box img
+{
+    width: 350px;
+    height: 350px;
+    top: 0%;
+    left: 0%;
+    position:absolute;
+    font-weight:lighter;
+}
+.box-text
+{
+    position: relative;
+    padding: 2rem 0px 0px 21rem;
     color: white;
-    
 }
