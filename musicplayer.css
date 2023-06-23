@@ -8,26 +8,76 @@ body
 {
     background-color: rgba(11, 16, 38,255);
     font-family:'Courier New', Courier, monospace;
+    
 }
 .coldplay-box
 {
-    margin: 130px 0px 0px 120px;
-    width: 850px;
-    height: 350px;
+    margin: 18vh 0vw 0vh 6vw;
+    width: 60vw;
+    height: 24vw;
     background-color:rgba(20,27,65,255);
 }
 .coldplay-box img
 {
-    width: 350px;
-    height: 350px;
+    width: 24vw;
+    height: 24vw;
     top: 0%;
     left: 0%;
     position:absolute;
-    font-weight:lighter;
 }
-.box-text
+.box-content
 {
     position: relative;
-    padding: 2rem 0px 0px 21rem;
-    color: white;
+    padding: 6vh 0vw 0vh 25vw;
+    color: rgb(230, 219, 219);
+
 }
+.box-content span:nth-child(1)
+{
+    font-size: 29px;
+    font-weight: bold;
+}
+.box-content span:nth-child(2)
+{
+    font-size: 14px;
+    margin-left: 250px;
+}
+.box-content span:nth-child(3)
+{
+    font-size: 15px;
+}
+.box-content span:nth-child(4)
+{
+  display: inline-block;
+  font-size: 13px; 
+  line-height-step:initial;
+}
+.box-content span:nth-child(5)
+{
+  line-height: 27vh;
+  font-size: 13px; 
+  font-weight: bolder;
+}
+#Follow
+{
+  font-size: 17px;
+  margin-top: -25vh;
+  margin-left: 13vw;
+  font-weight:bolder;
+}
+#playall
+{
+    position: relative;
+    top: -21vh;
+    width: 8rem;
+    height: 2rem;
+    color: white;
+    font-size: 14px;
+    background-image: linear-gradient(to right,rgba(0, 0, 255, 0.677),rgba(255, 0, 242, 0.71));
+}
+.songs
+{
+    width: 5px;
+    height: 3px;
+}
+
